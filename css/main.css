@@ -143,10 +143,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
-figure {
 
+figure {
+  margin: 0;
 }
 
 address {
@@ -213,6 +214,14 @@ header nav ul li {
   font-size: 1.125em;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 footer {
   text-align: center;
   flex-direction: column;
@@ -257,6 +266,10 @@ footer .copyright {
 
 /* Hero Area */
 .hero-area {
+  background: url('../img/unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -304,6 +317,9 @@ input[type=button] {
 
 /* Features */
 .features {
+  background: url('../img/camping.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
