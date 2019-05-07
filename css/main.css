@@ -159,6 +159,10 @@ address {
     margin: 50px 0;
    }
 
+ .features i {
+    font-size: 3.75em;
+    margin-bottom:30px;
+  }
 /*-----------Base Header - Footer Styles -----------*/
 
 header,
@@ -618,6 +622,7 @@ input[type=button] {
     margin: 0 20px 20px 0;
   }
 
+
   /*reviews*/
   .reviews article {
     display: flex;
@@ -776,7 +781,7 @@ input[type=button] {
   width: 42%;
 }
 
-/*-----------------ABout Page -------------*/
+/*-----------------About Page -------------*/
 .map figure {
   padding-bottom: 37.5%;
 }
